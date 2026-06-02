@@ -123,8 +123,7 @@ function App() {
       e('div', { className: 'sidebar' },
         e('div', { className: 'docs-box' },
           e('div', { className: 'docs-label' }, 'source'),
-          e('a', { href: 'https://github.com/avakhov/naive_sgd/blob/master/demo1/nn.py', target: '_blank' }, 'nn.py'),
-          e('a', { href: 'https://github.com/avakhov/naive_sgd/blob/master/docs/nn.js', target: '_blank' }, 'nn.js')
+          e('a', { href: 'https://github.com/avakhov/demos/blob/master/docs/naive_sgd/nn.js', target: '_blank' }, 'nn.js')
         ),
         e('div', { className: 'field' },
           e('label', null, 'Figure'),
